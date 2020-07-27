@@ -21,4 +21,4 @@ jobs:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
           NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
       with:
-          args: deploy --dir=../../dist --prod #push dist folder to Netlify
+          args: deploy --dir=BlazorContentful/dist --prod #push dist folder to Netlify
